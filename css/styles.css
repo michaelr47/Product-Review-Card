@@ -16,6 +16,7 @@ body {
 
 .container {
     width: 580px;
+    min-width: 375px !important;
     height: 450px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -133,9 +134,8 @@ body {
     }
    
     .container{
-        margin: 30px;
-        min-width: 50%;
-        width: 80%;
+        margin: 3rem;
+        width:80%;
         height:20%;
     }
     .row {
